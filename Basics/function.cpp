@@ -24,6 +24,13 @@ char alphabet1(char a){
     return a;
 }
 
+void printName();
+
+int ConvertIntoCelcius(int far){
+    int cel = (far-32)*5/9;
+    return cel;
+}
+
 int main(){
 
     counting();
@@ -37,5 +44,14 @@ int main(){
     char alphabet = alphabet1('C');
     cout << alphabet << endl;
 
+    printName();
+
+    int cel = ConvertIntoCelcius(102);
+    cout << cel << endl;
+
     return 0;
+}
+
+void printName(){
+    cout<< "Sagar Paul" << endl;
 }
