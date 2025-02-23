@@ -64,10 +64,8 @@ int main()
 		cout << endl;
 	}
 	// Numeric Half Pyramid
-	for (int row = 1; row < n; row++)
-	{
-		for (int col = 1; col < row; col++)
-		{
+	for (int row = 1; row < n; row++){
+		for (int col = 1; col < row; col++){
 			cout << col<<" ";
 		}
 		cout << endl;
