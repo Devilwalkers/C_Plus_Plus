@@ -1,13 +1,6 @@
-void reverseArray(int arr[],int n){
-// 	int left = 0;
-// 	int right = n - 1;
-
-// 	while(left<=right){
-// 		swap(arr[left], arr[right]);
-// 		left++;
-// 		right--;
-// 	}
-// 	for (int i = 0; i < n;i++){
-// 		cout << arr[i] << " ";
-// 	}
-// }
+for (int col = 0; col < 3; col++){
+        for (int row = 0; row < 3; row++){
+            cout << arr[row][col]<<", ";
+        }
+        cout<<endl;
+    }
