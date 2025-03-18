@@ -1,49 +1,5 @@
-#include<iostream>
-#include<vector>
-using namespace std;
-
-void print(vector<int> arr){
-    for(int i = 0; i<arr.size();i++){
-        cout<<arr[i]<<" ";
+while (it != s.end())
+    {
+        cout << *it << ", ";
+        it++;
     }
-    cout<<endl;
-}
-int main(){
-
-    vector<int> marks;
-
-    marks.push_back(10);
-    marks.push_back(20);
-    marks.push_back(30);
-    marks.push_back(40);
-    marks.push_back(50);
-
-    cout<<marks[2]<<endl;
-    cout<<marks.at(1)<<endl;
-
-    
-    // print(marks);
-
-    // if(marks.empty()==true)
-    //     cout<<"Vector is empty"<<endl;
-    // else
-    // cout<<"Vector is not empty"<<endl;
-
-    // marks.pop_back();
-
-    // cout<<*marks.begin()<<endl;
-    // cout<<*marks.end()<<endl;
-    // print(marks);
-
-    // cout<<marks.front()<<endl;
-    // cout<<marks.back()<<endl;
-
-
-
-    marks.pop_back();
-
-   
-
-
-    return 0;
-}
