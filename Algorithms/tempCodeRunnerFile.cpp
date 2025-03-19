@@ -1,1 +1,1 @@
-}
+, arr1.end(), arr2.begin(), arr2.end(), inserter(result, result.begin()));
