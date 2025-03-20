@@ -25,18 +25,18 @@ int main()
     // cout<<endl;
 
     // lets try backward movement
-    vector<int>::iterator it = arr.end() - 1;
+    // vector<int>::iterator it = arr.end() - 1;
 
-    while (it != arr.begin())
-    {
-        //write
-        (*it)+=5;
-        //read
-        cout<<*it<<" ";
-        //forward move
-        it--;
-    }
-    cout<<endl;
+    // while (it != arr.begin())
+    // {
+    //     //write
+    //     (*it)+=5;
+    //     //read
+    //     cout<<*it<<" ";
+    //     //forward move
+    //     it--;
+    // }
+    // cout<<endl;
 
     // Bi-directional Iterator
     // list<int> myList;
