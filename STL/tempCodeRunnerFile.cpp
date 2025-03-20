@@ -1,5 +1,9 @@
-while (it != s.end())
+list<int>::iterator it2 = myList.begin();
+
+    while (it2 != myList.end())
     {
-        cout << *it << ", ";
-        it++;
+        (*it2) += 2;
+        cout << *it2 << " ";
+        it2++;
     }
+    cout << endl;
